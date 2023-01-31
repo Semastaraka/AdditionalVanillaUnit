@@ -1,0 +1,64 @@
+type: mech
+name: "Shell"
+description: "Fires frag-bullets at enemy ground targets over long distances."
+flying: false
+health: 18000
+hitSize: 18
+speed: 0.31
+drag: 0.3
+accel: 0.1
+engineSize: 0
+targetGround: true
+targetAir: false
+rotateSpeed: 0.8
+rotateShooting: false
+armor: 9
+itemCapacity: 0
+weapons:[
+	{
+		name: shell-weapon
+		x: 0
+		y: 26
+		top: false
+		recoil: 9
+		reload: 420
+		shake: 12
+		mirror: false
+		shootY: 25
+		shootSound: bigshot
+		rotate: true
+		rotationLimit: 0
+		shootEffectSmoke: shootBigSmoke
+		shootEffect: shootBig
+		ejectEffect: casing3
+		bullet:{
+			type: fragBullet
+			damage: 3250
+			buildingDamageMultiplier: 0.1
+			pierce: true
+			pierceCap: 9
+			pierceBuilding: true
+			speed: 9
+			lifetime: 57
+			width: 20
+			height: 50
+			fragBullets: 15
+			fragOnHit: true
+			fragBullet:{
+				width: 5
+				height: 5
+				speed: 5
+				lifetime: 20
+				pierce: true
+				pierceCap: 2
+				pierceBuilding: true
+				damage: 150
+				despawnEffect: none
+				buildingDamageMultiplier: 0.1
+				}
+			}
+	}
+]
+research: {
+parent: advanced-factory
+}

@@ -1,0 +1,49 @@
+type: mech
+name: "Arrow"
+description: "Fires piercing bullets at enemy ground targets over long distances."
+flying: false
+health: 300
+hitSize: 6
+speed: 0.4
+drag: 0.3
+accel: 0.3
+engineSize: 0
+targetGround: true
+targetAir: false
+rotateSpeed: 1.5
+rotateShooting: false
+armor: 3
+itemCapacity: 0
+weapons:[
+{
+		name: arrow-weapon
+		x: 0
+		y: 10
+		top: false
+		recoil: 5
+		reload: 240
+		mirror: false
+		shootY: 9
+		shootSound: pew
+		rotate: true
+		rotationLimit: 0
+		shootEffectSmoke: shootSmallSmoke
+		shootEffect: shootSmall
+		ejectEffect: casing1
+		shootSound: shoot
+		bullet:{
+			type: BasicBulletType
+			damage: 180
+			buildingDamageMultiplier: 0.1
+			pierceCap: 3
+			knockback: 3
+			speed: 7
+			lifetime: 30
+			width: 5
+			height: 15
+			}
+		}
+]
+research: {
+parent: advanced-factory
+}

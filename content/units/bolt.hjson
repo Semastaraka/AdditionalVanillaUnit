@@ -1,0 +1,56 @@
+type: mech
+name: "Bolt"
+description: "Fires long-range laser at enemy ground targets."
+flying: false
+health: 450
+hitSize: 10
+speed: 0.35
+drag: 0.3
+accel: 0.3
+engineSize: 0
+targetGround: true
+targetAir: false
+rotateSpeed: 1
+rotateShooting: false
+armor: 5
+itemCapacity: 0
+weapons:[
+		{
+		name: bolt-weapon
+		x: 0
+		y: 18
+		top: false
+		recoil: 7
+		shake: 3
+		reload: 300
+		mirror: false
+		shootY: 17
+		shootSound: lasershoot
+		rotate: true
+		rotationLimit: 0
+		shootEffectSmoke: lancerLaserShootSmoke
+		shootEffect: lancerLaserShoot
+		ejectEffect: casing2
+		bullet:{
+			type: LaserBulletType
+			damage: 325
+			buildingDamageMultiplier: 0.1
+			color: 0000ff
+			status: melting
+			statusDuration: 900
+			pierce: true
+			pierceCap: 5
+			pierceBuilding: true
+			speed: 0
+			lifetime: 20
+			width: 10
+			length: 250
+			sideAngle: 75
+			sideWidth: 1
+			sideLength: 10
+			}
+		}
+	]
+research: {
+parent: advanced-factory
+}

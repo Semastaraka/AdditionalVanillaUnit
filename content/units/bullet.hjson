@@ -1,0 +1,80 @@
+type: mech
+name: "Bullet"
+description: "Fires subsonic long-range laser at enemy ground targets."
+flying: false
+health: 5500
+hitSize: 16
+speed: 0.33
+drag: 0.3
+accel: 0.2
+engineSize: 0
+targetGround: true
+targetAir: false
+rotateSpeed: 0.9
+rotateShooting: false
+armor: 7
+itemCapacity: 0
+weapons:[
+	{
+		name: bullet-weapon
+		x: 0
+		y: 19
+		top: false
+		recoil: 7
+		reload: 300
+		shake: 5
+		mirror: false
+		shootY: 18
+		shootSound: laserbig
+		rotate: true
+		rotationLimit: 0
+		shootEffectSmoke: lancerLaserShootSmoke
+		shootEffect: lancerLaserShoot
+		ejectEffect: casing2
+		bullet:{
+			type: LaserBulletType
+			damage: 1750
+			buildingDamageMultiplier: 0.1
+			color: 0000ff
+			status: melting
+			statusDuration: 1500
+			pierce: true
+			pierceCap: 7
+			pierceBuilding: true
+			speed: 0
+			lifetime: 20
+			width: 20
+			length: 350
+			sideAngle: 75
+			sideWidth: 1
+			sideLength: 10
+			}
+	},
+	{
+		name: mount-weapon
+		x: 10
+		y: 4
+		recoil: 2
+		reload: 15
+		mirror: true
+		rotate: true
+		rotateSpeed: 5
+		shootEffectSmoke: none
+		shootEffect: none
+		ejectEffect: casing1
+		bullet:{
+			type: BasicBulletType
+			damage: 16
+			alternate: true
+			pierce: false
+			collidesTeam: false
+			speed: 5
+			lifetime: 20
+			width: 10
+			height: 15
+		}
+	}
+]
+research: {
+parent: additive-factory
+}
