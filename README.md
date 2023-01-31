@@ -1,5 +1,5 @@
 # AdditionalVanillaUnit
-Adds a new vanilla unit!
+Adds a new vanilla unit in -vanilla unit factory!-
 ## Version 1.0
 ----
 ### Languages: 
