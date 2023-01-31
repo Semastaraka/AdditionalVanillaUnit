@@ -1,4 +1,6 @@
 # AdditionalVanillaUnit
+**Star my mod please!**
+
 Adds a new vanilla unit in **vanilla unit factory!**
 
 Добавляет нового юнита в **ванильную фабрику юнитов!**
