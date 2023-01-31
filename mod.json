@@ -1,0 +1,11 @@
+{
+  "name": "me",
+  "displayName": "AdditionalVanillaUnit",
+  "author": "[red]semka",
+  "description": "Best balanced mod!",
+  "subtitle": "Adds a new vanilla unit to the game.",
+  "version": "1.0",
+  "main": "me.me",
+  "minGameVersion": "140",
+  "hidden": false
+}
