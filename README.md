@@ -5,3 +5,6 @@ Adds a new vanilla unit in *vanilla unit factory!*
 ### Languages: 
 1. Russian
 2. English
+----
+### My Discord
+semastaraka#9222
