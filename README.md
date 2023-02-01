@@ -4,7 +4,7 @@
 Adds a new vanilla unit in **vanilla unit factory!**
 
 Добавляет нового юнита в **ванильную фабрику юнитов!**
-## Version 1.0
+## Version 1.2
 ----
 ### Languages: 
 1. Russian
