@@ -44,5 +44,9 @@ weapons:[
 		}
 ]
 research: {
-child: ground-factory
+parent: dagger
+lead/200
+silicon/100
+graphite/50
+}
 }
