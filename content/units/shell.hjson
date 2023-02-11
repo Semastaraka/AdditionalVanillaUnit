@@ -60,5 +60,11 @@ weapons:[
 	}
 ]
 research: {
-parent: advanced-factory
+parent: bullet
+requirments: [
+silicon/1000
+plastanium/600
+surge-alloy/400
+phase-fabric/350
+]
 }

@@ -45,5 +45,9 @@ weapons:[
 		}
 ]
 research: {
-parent: advanced-factory
+parent: stinger
+requirments: [
+silicon/40
+graphite/40
+]
 }

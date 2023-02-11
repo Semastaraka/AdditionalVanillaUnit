@@ -76,5 +76,10 @@ weapons:[
 	}
 ]
 research: {
-parent: additive-factory
+parent: bolt
+requirments: [
+silicon/850
+graphite/750
+plastanium/40
+]
 }

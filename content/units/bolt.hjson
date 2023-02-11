@@ -52,5 +52,10 @@ weapons:[
 		}
 	]
 research: {
-parent: advanced-factory
+parent: arrow
+requirments: [
+silicon/130
+graphite/80
+metaglass/40
+]
 }

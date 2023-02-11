@@ -45,7 +45,8 @@ weapons:[
 ]
 research: {
 parent: dagger
-lead/200
-silicon/100
-graphite/50
+requirments: [
+silicon/10
+graphite/10
+]
 }

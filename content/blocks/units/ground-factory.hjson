@@ -31,7 +31,7 @@ plans:[
  unit: stinger
  time: 1200
  requirements:[
- silicon/20
+ silicon/10
  graphite/10
 ]
  }
